@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;   /* eliminate default margin */
+    padding: 0;
+    height: 100%; /* let flex parent fill viewport */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+    height: 5vh;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+}
+
+.header,
+.footer,
+.content {
+    padding: 1vh 15%;
+}
+
+
+.header {
+    justify-content: space-around;
+    color: #ffffff;
+    gap: 1em;
+}
+
+.header-logo {
+    flex: 1;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header-links {
+    flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: end;
+    display: flex;
+}
+
+.header-links a {
+    margin-right: 20px;
+}
+
+.content {
+    flex: 1;
+}
+
+.section1 {
+    background-color: #1f2937;
+    display: flex;
+    height: 30vh;
+}
+
+.section1 div {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.section-title {
+    font-size: 48px;
+    color: #f9fAF8;
+    font-weight: 900;
+}
+
+.section-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-left div {
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #ffffff;
+    padding: 12px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.section2 {
+    
+}
+
+.section3 {
+    background-color: #e5e7eb;
+}
+
+.section4 {
+    
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
