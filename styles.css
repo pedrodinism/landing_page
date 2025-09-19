@@ -5,10 +5,6 @@ body {
     font-family: 'Roboto';
 }
 
-div {
-    border: 1px solid black;
-}
-
 /* Layout */
 
 .layout {
@@ -74,7 +70,7 @@ div {
     justify-content: center;
 }
 
-.galery {
+.gallery {
     flex: 1;
     display: flex;
 }
@@ -89,17 +85,48 @@ div {
 }
 
 .square-blue {
-    border: 2px solid blue;
+    border: 2px solid #3882f6;
     border-radius: 5px;
     margin: 10px;
-    height: 80px;
-    width: 80px;
+    height: 150px;
+    width: 150px;
+}
+
+.legend {
+    color: black;
+    width: 150px;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote-author {
+    padding-top: 20px;
+    text-align: right;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.footer {
+    justify-content: center;
+    color: white;
 }
 
 /* Reusable classes */
 
 .bg-dark {
     background-color: #1F2937;
+}
+
+.bg-gray {
+    color: #1f2937;
+    background-color: #e5e7eb;
 }
 
 .main-text {
